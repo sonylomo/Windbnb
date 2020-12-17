@@ -19,8 +19,8 @@
 .banner_info{
     background-color: black;
     color: white;
-    padding: 25vh 50px 40px 50px;
-    width: 300px;
+    padding: 17vh 50px 40px 40px;
+    max-width: 400px;
 }
 
 .banner_info > button{

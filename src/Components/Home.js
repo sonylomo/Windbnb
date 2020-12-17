@@ -8,7 +8,7 @@ function Home() {
         <div className='Home'>
             <Banner />
 
-            <div className='home_section'>
+            <div className='home_section row'>
 
                 <Card src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2255&q=80"
                 title='Stylist apartment in center of the city'
@@ -25,7 +25,7 @@ function Home() {
                 description='Entire house. Helsinki, finland'
                 price='$4.00'/>
             </div>
-            <div className='home_section'>
+            <div className='home_section row'>
             <Card src= "https://images.unsplash.com/photo-1494203484021-3c454daf695d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
                 title='Brand new studio apartment near the harbour'
                 description='Entire house. Vaasa, finland'

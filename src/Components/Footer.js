@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <div className='Footer'>
-            <p><i class="fa fa-copyright" aria-hidden="true"></i> Windbnb</p>
+            <p><i className="fa fa-copyright" aria-hidden="true"></i> Windbnb</p>
             <p>Privacy . Terms . Sitemap . Company Details</p>
         </div>
     )

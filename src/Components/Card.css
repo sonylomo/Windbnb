@@ -14,7 +14,7 @@
 
 .Card > img{
     object-fit: fill;
-    min-width: 300px;
+    min-width: 150px;
     min-height: 200px;
     width: 100%;
 }
@@ -38,3 +38,10 @@
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+@media only screen and (max-width: 375px) {
+    .Card{
+      margin: 4px;
+      margin-top: 20px;  
+    }
+  }
