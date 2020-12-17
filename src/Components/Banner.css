@@ -1,0 +1,41 @@
+.Banner{
+    position: relative;
+    height: 80vh;
+    background: url(./Assets/apartment-big.jpg) center center no-repeat ;
+}
+
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_searchbtn{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+.banner_info{
+    background-color: black;
+    color: white;
+    padding: 17vh 50px 40px 40px;
+    max-width: 400px;
+}
+
+.banner_info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner_info > button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+
+.banner_info > h5{
+    margin-top: 10px;
+}
